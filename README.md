@@ -400,22 +400,32 @@ Slash is a versatile mobile app for Android and a corresponding website that red
 
 Slash is all about simplicity, convenience, and savings. Discover the best deals effortlessly and revolutionize your online shopping journey today!
 
-## Screenshots
+## Screenshots of SLASH
 
 ### Website: 
 
 ![Sign-in](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/e617973f-e480-4f46-bc51-0237334655ba)
+
 ![Sign-up](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/392e3ee3-6e94-4840-8d90-dac8f6586731)
+
 ![search](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/967c02ec-71fc-4982-8a9b-1da12020850d)
+
 ![results](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/2125f94e-7c00-42e3-abfd-da20876c6abe)
+
+![bjs](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/3e42dc3f-12a0-4977-a1dc-4c2973f8af89)
+
 ![wishlist](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/f90b3c31-2b0c-4190-96bd-2908204130de)
 
 ### Mobile App:
 
 ![Sign-in-app png](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/b49ae744-54a0-48b5-936b-2430da30bbba)
+
 ![Sign-up-app png](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/7a835282-a263-436e-a170-ca385eb0e869)
+
 ![search-app](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/406c6d13-6cfa-4ef0-89be-3dca308db614)
+
 ![wishlist-app](https://github.com/SaikrishnaRajaraman/slash/assets/88961569/0534d05f-3cda-497a-9411-5b8095ba7b66)
+
 
 ## Technologies Used
 
@@ -447,6 +457,7 @@ Slash is all about simplicity, convenience, and savings. Discover the best deals
 
 5. **Seamless Web & Mobile Experience**
    - Slash offers both a mobile app for Android and a website, ensuring you enjoy a consistent shopping experience across platforms.
+
 
 ## All problems encountered while running the flask app
 
@@ -494,14 +505,14 @@ The user's experience with the "Slash" platform was generally positive, with suc
 
 ## Project Roadmap
 
-The slash app can be modified to include a percentage of discount for each product and the number of people who have rated that product.
-The slash app can include recently viewed products by the user.
-Best selling badges on the searched product scrapped from the web has been implemented, changes need to be done on UI.
-Search by category for each product.
-Include more filters for the products. Example: Colour and category filters.
-Display, offers and coupons on eligible products.
-Allow users to share the link to products on the website. (implemented in the Android App)
-Localization to be added to the website. (Implemented in the Android App)
+- The slash app can be modified to include a percentage of discount for each product and the number of people who have rated that product.
+- The slash app can include recently viewed products by the user.
+- Best selling badges on the searched product scrapped from the web has been implemented, changes need to be done on UI.
+- Search by category for each product.
+- Include more filters for the products. Example: Colour and category filters.
+- Display, offers and coupons on eligible products.
+- Allow users to share the link to products on the website. (implemented in the Android App)
+- Localization to be added to the website. (Implemented in the Android App)
 
 
 ## License
