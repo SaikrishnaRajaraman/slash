@@ -460,6 +460,7 @@ Slash is all about simplicity, convenience, and savings. Discover the best deals
 
 This case study provides insight into a user's experience while using "Slash," a comprehensive shopping platform that includes a mobile app for Android and a corresponding website. The user, who comes from a non-CS (Computer Science) background, navigated through the platform, engaging in activities such as signing up, logging in, searching for items, applying filters, and managing a wishlist.
 
+
 **User Experience Highlights**
 
 **1. User Registration and Login**
@@ -482,6 +483,8 @@ This case study provides insight into a user's experience while using "Slash," a
 
 **6. Wishlist Feature**
    - The user found the wishlist option to be highly useful, facilitating the organization and tracking of her favorite items.
+
+**[Link to Rubric Grading](https://github.com/SaikrishnaRajaraman/slash/tree/main/docs/Project2-%20Team%2037)**
 
 **Conclusion and Recommendations**
 
