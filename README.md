@@ -10,7 +10,7 @@
 [![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/SEProjGrp5/slash)](https://github.com/TommasU/slash/pulls?q=is%3Apr+is%3Aclosed)
 [![codecov](https://codecov.io/gh/TommasU/slash/branch/main/graph/badge.svg?token=MGTU44PI4F)](https://codecov.io/gh/TommasU/slash)
 [![Pylint](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/pylint.yml/badge.svg)](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/pylint.yml)
-[![Python Style Checker](https://github.com/SEProjGrp5/slash/actions/workflows/style_checker.yml/badge.svg?branch=main)](https://github.com/TommasU/slash/actions/workflows/style_checker.yml)
+[![Python Style Checker](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/style_checker.yml/badge.svg)](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/style_checker.yml)(https://github.com/TommasU/slash/actions/workflows/style_checker.yml)
 [![Python package](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/python-package.yml/badge.svg)](https://github.com/SaikrishnaRajaraman/slash/actions/workflows/python-package.yml)
 
 Slash is a tool that scrapes the most popular e-commerce websites to get the best deals on searched items across these websites. 
