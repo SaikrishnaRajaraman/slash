@@ -355,7 +355,10 @@ File Name: C:\Anant\NCSU\slash_test_csv\socks211104_1223.csv
 
 Slash is a versatile mobile app for Android and a corresponding website that redefines your online shopping experience. With a focus on convenience and savings, Slash allows users to find the best deals on their favorite items across popular e-commerce websites. This project combines the power of Flask,Firebase, HTML, CSS, Bootstrap, and Kotlin in Android Studio to create a seamless shopping platform.
 
+
 ## Features
+
+### Link to Hosted Image : 152.7.177.172:8080
 
 ### User Authentication
 
