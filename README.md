@@ -3,7 +3,7 @@
 <p align="center"><img width="500" src="./assets/slash.png"></p>
 
 [![GitHub license](https://img.shields.io/github/license/TommasU/slash)](https://github.com/TommasU/slash/blob/main/LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5739350.svg)](https://doi.org/10.5281/zenodo.5739350)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10023754.svg)](https://doi.org/10.5281/zenodo.10023754)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
 [![GitHub issues](https://img.shields.io/github/issues/TommasU/slash)](https://github.com/TommasU/slash/issues)
 [![Github closes issues](https://img.shields.io/github/issues-closed-raw/TommasU/slash)](https://github.com/TommasU/slash/issues?q=is%3Aissue+is%3Aclosed)
