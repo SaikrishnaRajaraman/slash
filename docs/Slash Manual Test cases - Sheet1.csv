@@ -1,0 +1,16 @@
+,,,,
+Android App,,,,
+,,,,
+Test case,Expected result,Actual Result,Pass/Fail,Comments
+Sign up in app,Sign up process should succeed,Sign up process is successful,Pass,
+Sign in using credentials used for sign up,Sign in should be successful,Sign in is successful,Pass,
+Sign in using invalid credentials,Sign in should fail,Sign in fails,Pass,
+Search for products if not connected to internet,Should display no internet,Displays no internet,Pass,
+Search for product using a keyword,Should return a list of products,Returns a list of products,Pass,
+Open product on clicking,Should open the product link,Sometimes it fails if links are relative and not absolute,Fail,Known issue with parsing
+Sort by price,Should sort by price,Sorting doesnt work if the parsed prices are not in proper format,Fail,Known issue with parsing
+Add product to wishlist,Product should be added to wishlist,Product is added to wishlist,Pass,
+Wishlist is saved and synced across devices,Wishlists is saved and synced,Wishlist is synced,Pass,
+Delete confirmation for wishlist,Show delete confirmation for wishlists while deleting,Delete confirmation is shown,Pass,
+Share product link,"Should be able to share product url via whatsapp,email etc",Share sheet is opened for sharing,Pass,
+Show empty message for empty wishlists,Empty message for wishlists,Empty message is shown,Pass,
