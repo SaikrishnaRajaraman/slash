@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slash_Android</string>
+    <string name="route_search">ಹುಡುಕಿ</string>
+    <string name="route_wishlist">ಇಚ್ಭವುಳಗಾರ</string>
+    <string name="search">ಹುಡುಕಿ</string>
+    <string name="slash">ಕಡಿತ</string>
+    <string name="offline">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವಿಲ್ಲ</string>
+    <string name="sign_in_alert">ಇಮೇಲ್/ಪಾಸ್‌ವರ್ಡ್ ಖಾಲಿಯಾಗಿರಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="no_items_found">ಯಾವುದೇ ವಸ್ತುಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+    <string name="add_to_wishlist">ಇಚ್ l ೆಪಟ್ಟಿಗೆ ಸೇರಿಸಿ</string>
+    <string name="remove_from_wishlist">ತೆಗೆದುಹಾಕು</string>
+</resources>
