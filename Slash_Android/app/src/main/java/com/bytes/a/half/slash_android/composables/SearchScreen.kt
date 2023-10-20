@@ -82,10 +82,12 @@ fun SearchScreen(searchScreenParams: SearchScreenParams) {
                             top.linkTo(searchField.bottom)
                             bottom.linkTo(parent.bottom)
                             height = Dimension.fillToConstraints
-                        }, isWishlist = false, searchScreenParams.products
-                ) { link ->
-                    searchScreenParams.onProductClick(link)
-                }
+                        }, isWishlist = false, products = searchScreenParams.products, onclick = {
+                        searchScreenParams.onProductClick(it)
+                    }, onShare = {
+                        searchScreenParams.onShare(it)
+                    }
+                )
             }
         } else {
             Box(modifier = Modifier.constrainAs(offline) {
@@ -119,5 +121,6 @@ data class SearchScreenParams(
     val products: MutableList<Product>,
     val showProgress: MutableState<Boolean>,
     val onProductClick: (link: String) -> Unit,
-    val onQueryProduct: (query: String) -> Unit
+    val onQueryProduct: (query: String) -> Unit,
+    val onShare: (link: String) -> Unit
 )
