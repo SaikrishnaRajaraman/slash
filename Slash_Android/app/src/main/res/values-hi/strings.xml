@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slash_Android</string>
+    <string name="route_search">खोज</string>
+    <string name="route_wishlist">इच्छा-सूची</string>
+    <string name="search">खोज</string>
+    <string name="slash">स्लैश</string>
+    <string name="offline">कोई इंटरनेट कनेक्शन नहीं</string>
+    <string name="sign_in_alert">ईमेल/पासवर्ड खाली नहीं हो सकता</string>
+    <string name="no_items_found">कोई आइटम नहीं मिला</string>
+    <string name="add_to_wishlist">इच्छा सूची में जोड़ें</string>
+    <string name="remove_from_wishlist">निकालना</string>
+</resources>
