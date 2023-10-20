@@ -19,6 +19,8 @@ Slash is a tool that scrapes the most popular e-commerce websites to get the bes
 - **Powerful**: Quickly alter the commands to get desired results
 <p align="center">
 
+# :dizzy: Demo Video
+
 [![Demo Video](https://img.youtube.com/vi/VkuyD7f7OCQ/0.jpg)](https://www.youtube.com/watch?v=VkuyD7f7OCQ)
  
 Checkout our newest Features! Mini Version and Full version now showcasing new sets of improvements.
