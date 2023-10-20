@@ -363,7 +363,7 @@ Slash is a versatile mobile app for Android and a corresponding website that red
 
 ## Features
 
-### Link to Hosted Image : 152.7.177.172:8080
+### Link to Hosted Image : [152.7.177.172:8080](http://152.7.177.172:8080/)
 
 ### User Authentication
 
