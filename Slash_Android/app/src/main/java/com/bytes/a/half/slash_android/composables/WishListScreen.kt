@@ -72,6 +72,8 @@ fun WishListScreen(wishListScreenParams: WishListScreenParams) {
                     products = wishListScreenParams.products,
                     onclick = { link ->
                         wishListScreenParams.onProductClick(link)
+                    }, onShare = { link ->
+                        wishListScreenParams.onShareLink(link)
                     })
             }
         }
@@ -83,5 +85,6 @@ data class WishListScreenParams(
     val context: Context,
     val products: MutableList<Product>,
     val showProgress: MutableState<Boolean>,
-    val onProductClick: (link: String) -> Unit
+    val onProductClick: (link: String) -> Unit,
+    val onShareLink: (link: String) -> Unit
 )

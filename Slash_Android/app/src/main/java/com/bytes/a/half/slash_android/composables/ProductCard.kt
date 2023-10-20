@@ -6,10 +6,13 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
+import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -35,7 +38,8 @@ fun ProductCard(
     product: Product,
     isWishlist: Boolean,
     onclick: () -> Unit,
-    onAddToWishList: () -> Unit
+    onAddToWishList: () -> Unit,
+    onShare: () -> Unit
 ) {
 
     val openDialog = remember {
@@ -50,7 +54,18 @@ fun ProductCard(
     ) {
         ConstraintLayout() {
 
-            val (companyLogo, productImage, price, title, rating, addToWishlist) = createRefs()
+            val (companyLogo, productImage, price, title, rating, addToWishlist, shareIcon) = createRefs()
+
+            Icon(Icons.Filled.Share, "", modifier = Modifier
+                .constrainAs(shareIcon) {
+                    end.linkTo(parent.end)
+                    top.linkTo(parent.top)
+                }
+                .clickable {
+                    onShare()
+                }
+                .padding(top = 8.dp, end = 8.dp)
+            )
 
             Image(
                 painter = rememberAsyncImagePainter(getCompanyLogoUrl(product.website)),
@@ -60,7 +75,7 @@ fun ProductCard(
                     .constrainAs(companyLogo) {
                         start.linkTo(parent.start)
                         end.linkTo(parent.end)
-                        top.linkTo(parent.top)
+                        top.linkTo(shareIcon.bottom)
                     }
                     .padding(start = 8.dp, top = 8.dp, end = 8.dp)
             )
