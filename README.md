@@ -525,6 +525,8 @@ The user's experience with the "Slash" platform was generally positive, with suc
 - Allow users to share the link to products on the website. (implemented in the Android App)
 - Localization to be added to the website. (Implemented in the Android App)
 
+- You can find more in this project board. [Slash Project Board](https://github.com/users/SaikrishnaRajaraman/projects/1)
+
 
 ## License
 
